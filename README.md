@@ -11,7 +11,7 @@ Storage configuration
 
 Standalone install
 ------------------
-+ git clone git@gitlab.dcs:trip-microservices/fe-container.git
++ git clone https://github.com/Repkit/eba-fe-container.git
 + cd fe-container
 + composer install
 + composer update
