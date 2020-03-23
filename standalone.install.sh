@@ -15,7 +15,7 @@ else
         mv module/"$1"/tests tests;
         mv public/.htaccess public/dev.htaccess;
 		mv module/"$1"/config/container.global.php config/autoload
-        wget http://gitlab.dcs/trip-microservices/how-to-create-a-microservice/raw/master/public/.htaccess -P ./public/
+        wget https://raw.githubusercontent.com/Repkit/eba-utils/master/clients/public/.htaccess -P ./public/
         for file in $( find ./module/MicroIce*/config -name *.dist )
         do
                 newfile=$( basename $file .dist )
